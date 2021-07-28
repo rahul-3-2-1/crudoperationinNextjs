@@ -1,0 +1,33 @@
+.upperdiv {
+  display: flex;
+}
+.userdetails {
+  flex: 0.9;
+  display: flex;
+  //   position: relative;
+  border: 1px solid black;
+  height: 38px;
+  div {
+    flex: 1 1 0;
+    border-right: 1px solid black;
+
+    display: flex;
+
+    input {
+      display: block;
+      width: 100%;
+    }
+    span {
+      margin-left: 1rem;
+      align-self: flex-end;
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgb(12, 11, 11);
+    }
+  }
+  .btn {
+    // position: absolute;
+
+    border: none;
+  }
+}

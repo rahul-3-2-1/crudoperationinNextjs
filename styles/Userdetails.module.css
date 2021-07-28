@@ -1,0 +1,45 @@
+.upperdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.userdetails {
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  height: 38px;
+}
+
+.userdetails div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0px;
+          flex: 1 1 0;
+  border-right: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.userdetails div input {
+  display: block;
+  width: 100%;
+}
+
+.userdetails div span {
+  margin-left: 1rem;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #0c0b0b;
+}
+
+.userdetails .btn {
+  border: none;
+}
+/*# sourceMappingURL=Userdetails.module.css.map */
